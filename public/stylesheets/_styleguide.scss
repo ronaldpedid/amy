@@ -1,0 +1,9 @@
+$color_base_white: #fff;
+$color_base_black: #333;
+$arrow_btn_base: #6699ff;
+$font_base: "Arial";
+
+@mixin font($color, $face){
+  color: $color_base;
+  font-family: $font_base;
+}

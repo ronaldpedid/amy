@@ -1,0 +1,191 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Fira Sans, sans-serif; }
+
+link:active {
+  color: orange; }
+
+a, button {
+  cursor: pointer; }
+
+ul, li, a, p {
+  text-decoration: none; }
+
+#mainLogo img {
+  align-self: center;
+  margin: 0 auto;
+  height: auto;
+  width: 420px; }
+
+#mainNav ul {
+  justify-content: center; }
+
+#mainNav li {
+  list-style-type: none;
+  padding: 0 15px; }
+
+#aboutMe {
+  animation-duration: 1000ms;
+  animation-delay: 0s;
+  animation-iteration-count: 1; }
+
+.flex {
+  display: flex; }
+
+.grid {
+  display: grid; }
+
+.column {
+  flex-flow: column nowrap; }
+
+.row {
+  flex-flow: row; }
+
+.wrap {
+  flex-wrap: wrap; }
+
+#mainGridStudent {
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  grid-template-areas: 'crest dmv nfm' 'senheizer senheizer senheizer';
+  grid-gap: 15px;
+  margin: 20px 20%; }
+
+.cell, .crest, .dmv, .nfm, .lipton, .mayfield, .shop {
+  height: 300px; }
+
+.crest {
+  grid-area: crest;
+  grid-column: 1;
+  background-image: url("/images/thumb4-whipcream.png");
+  background-size: cover;
+  background-position: center; }
+
+.dmv {
+  grid-area: dmv;
+  grid-column: 2;
+  background-image: url("/images/thumb1-dmv.png");
+  background-size: cover;
+  background-position: center; }
+
+.nfm {
+  grid-area: nfm;
+  background-image: url("/images/thumb2-nairman.png");
+  background-size: cover;
+  background-position: center;
+  grid-column: 3; }
+
+.senheizer {
+  grid-area: senheizer;
+  width: 100%;
+  height: 300px;
+  grid-column: 2/3;
+  grid-row: 2;
+  background-image: url("/images/thumb7-headphone.png");
+  background-size: cover;
+  background-position: center; }
+
+#mainGridProfessional {
+  justify-content: space-between;
+  margin: 20px 20%;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  grid-template-areas: 'lipton mayfield shop' 'tribe blank walmart ';
+  grid-gap: 15px; }
+
+.lipton {
+  grid-area: lipton;
+  grid-column: 1;
+  background-image: url("/images/thumb8-hopin.png");
+  background-size: cover;
+  background-position: center; }
+
+.mayfield {
+  grid-area: mayfield;
+  grid-column: 2;
+  background-image: url("/images/thumb6-mayfield.png");
+  background-size: cover;
+  background-position: center; }
+
+.shop {
+  grid-area: shop;
+  background-image: url("/images/thumb9-shop.png");
+  background-size: cover;
+  background-position: center;
+  grid-column: 3; }
+
+.tribe {
+  grid-area: tribe;
+  width: 100%;
+  height: 300px;
+  grid-column: 1;
+  grid-row: 2;
+  background-image: url("/images/thumb5-tribe.png");
+  background-size: cover;
+  background-position: center; }
+
+.blank {
+  grid-column: 2; }
+
+.walmart {
+  grid-area: walmart;
+  width: 100%;
+  height: 300px;
+  grid-column: 3;
+  grid-row: 2;
+  background-image: url("/images/thumb7-headphone.png");
+  background-size: cover; }
+
+#aboutMe h1 {
+  text-align: center; }
+
+#aboutMe h1, #aboutMe p {
+  margin: 20px 20%; }
+
+#aboutMe div > img {
+  width: 150px;
+  height: 150px; }
+
+#iconRow {
+  align-self: center;
+  margin: 0 auto; }
+
+#contactMe {
+  margin-top: 30px; }
+  #contactMe input {
+    padding: 5px 0;
+    margin: 5px auto; }
+  #contactMe textarea {
+    height: 150px;
+    margin: 5px auto; }
+  #contactMe button {
+    margin: 5px auto; }
+  #contactMe input, #contactMe textarea {
+    width: 600px; }
+  #contactMe button {
+    width: auto;
+    padding: 5px 35px; }
+  #contactMe form {
+    justify-content: center;
+    align-self: center;
+    margin: 0 auto; }
+
+.wrapperCrest {
+  margin: 0 auto;
+  align-self: center;
+  justify-content: space-between;
+  width: 768px; }
+
+#coffee img,
+#cupcake img,
+#pie img {
+  max-height: 150px;
+  max-width: 150px; }
+
+.highlight, .activeLink {
+  border-bottom: 4px solid darkorange; }
+
+.hidden {
+  display: none; }
